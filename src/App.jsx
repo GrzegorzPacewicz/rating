@@ -1,9 +1,10 @@
 import "./App.module.css";
+import { Form } from "./components/Form/Form";
 
 function App() {
   return (
     <>
-      <h1>hello world</h1>
+      <Form />
     </>
   );
 }
