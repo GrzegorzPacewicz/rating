@@ -21,7 +21,7 @@
 }
 
 body {
-  background-color: var(--neutral-dark-blue);
+  background-color: var(--neutral-very-dark-blue);
   font-family: var(--font-family);
   font-size: var(--fw-regular);
   color: var(--neutral-white);
