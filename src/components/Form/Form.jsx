@@ -9,7 +9,14 @@ export function Form() {
         appreciated to help us improve our offering!
       </p>
       <form className={styles.form__container}>
-        <div className={styles.labels__container}>buttons</div>
+        <div className={styles.labels__container}>
+          <label className={styles.label}>1</label>
+          <label className={styles.label}>1</label>{" "}
+          <label className={styles.label}>1</label>{" "}
+          <label className={styles.label}>1</label>{" "}
+          <label className={styles.label}>1</label>{" "}
+          <label className={styles.label}>1</label>{" "}
+        </div>
         <button className={styles.form__btn}>Submit</button>
       </form>
     </div>
