@@ -1,10 +1,17 @@
 :root {
-  --color-primary: hsl(25, 97%, 53%);
-  --color-white: hsl(0, 0%, 100%);
-  --color-light: hsl(217, 12%, 63%);
-  --color-medium: hsl(216, 12%, 54%);
-  --color-blue: hsl(213, 19%, 18%);
-  --color-darkBlue: hsl(216, 12%, 8%);
+  /* COLORS */
+  --primary-orange: hsl(25, 97%, 53%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-light-grey: hsl(217, 12%, 63%);
+  --neutral-medium-grey: hsl(216, 12%, 54%);
+  --neutral-dark-blue: hsl(213, 19%, 18%);
+  --neutral-very-dark-blue: hsl(216, 12%, 8%);
+
+  /* TYPOGRAPHY */
+  --font-family: 'Overpass', sans-serif;
+  --font-size: 15px;
+  --fw-regular: 400;
+  --fw-bold: 700;
 }
 
 * {
@@ -14,11 +21,10 @@
 }
 
 body {
-  background-color: var(--color-light);
-  color: var(--color-white);
-  font-family: Overpass, sans-serif;
-  line-height: 1.5;
-  padding: 90px 24px;
+  background-color: var(--neutral-light-grey);
+  font-size: var(--fw-regular);
+  color: var(--neutral-white);
+  font-weight: var(--fw-reg);
   min-height: 100vh;
   display: flex;
   align-items: center;
