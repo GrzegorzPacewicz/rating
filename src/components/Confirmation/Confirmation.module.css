@@ -2,9 +2,23 @@
     /* margin-top: 0; but now is disabled*/
     margin: 1.5em;
     background-color: var(--neutral-dark-blue);
-    padding: 2em;
-    border-radius: 25px;
+    padding: 2em 0 3rem;
+    border-radius: 2rem;
     width: 425px;
+    text-align: center;
+}
+
+.thanksIcon {
+    margin: 1rem 0;
+}
+
+.selection {
+    background-color: var(--neutral-medium-greyOp);
+    color: var(--primary-orange);
+    border-radius: 2rem;
+    padding: .5rem;
+    width: 50%;
+    margin: 0.5rem auto 2.5rem;
 }
 
 .title {
