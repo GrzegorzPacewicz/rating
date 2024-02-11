@@ -8,7 +8,6 @@ export function Form({ formData, handleChange, handleSubmit }) {
     { number: 3, value: 3 },
     { number: 4, value: 4 },
     { number: 5, value: 5 },
-    { number: 6, value: 6 },
   ];
 
   return (
