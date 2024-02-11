@@ -9,7 +9,7 @@ function App() {
     formSubmitted: false,
   });
 
-  function handleChange(event) {
+  function handleChange(event) { 
     const { value } = event.target;
     setFormData((prevFormData) => ({
       ...prevFormData,
