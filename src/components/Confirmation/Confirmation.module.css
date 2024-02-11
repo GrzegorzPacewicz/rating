@@ -1,0 +1,19 @@
+.container {
+    /* margin-top: 0; but now is disabled*/
+    margin: 1.5em;
+    background-color: var(--neutral-dark-blue);
+    padding: 2em;
+    border-radius: 25px;
+    width: 425px;
+}
+
+.title {
+    margin: 1rem 0;
+}
+
+.text {
+    max-width: 1rem 0;
+    color: var(--neutral-medium-grey);
+    line-height: 1.5rem;
+    text-align: center;
+}
