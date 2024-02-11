@@ -6,6 +6,12 @@
     width: 425px;
 }
 
+.starIcon {
+    background-color: var(--neutral-medium-greyOp);
+    padding: 1rem;
+    border-radius: 100%;
+}
+
 .title {
     margin: 1rem 0;
 }
