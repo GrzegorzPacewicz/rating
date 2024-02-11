@@ -3,7 +3,7 @@
     background-color: var(--neutral-dark-blue);
     padding: 2em;
     border-radius: 2rem;
-    width: 425px;
+    max-width: 425px;
 }
 
 .starIcon {
