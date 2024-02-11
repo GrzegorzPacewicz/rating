@@ -19,10 +19,7 @@ function App() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    setFormData((prevFormData) => ({
-      ...prevFormData,
-      formSubmitted: true,
-    }));
+    setFormData({ ...formData, formSubmitted: true });
   }
 
   return (
