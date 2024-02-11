@@ -4,14 +4,14 @@ import starIcon from "../../assets/icon-star.svg";
 export function Form() {
   return (
     <div className={styles.container}>
-      <img className={styles.starIcon} src={starIcon} />
+      <img className={styles.starIcon} src={starIcon} alt="star icon" />
       <h1 className={styles.title}>How did we do?</h1>
       <p className={styles.text}>
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>
-      <form className={styles.form__container}>
-        <div className={styles.labels__container}>
+      <form className={styles.formContainer}>
+        <div className={styles.labelsContainer}>
           <label className={styles.label}>1</label>
           <label className={styles.label}>1</label>{" "}
           <label className={styles.label}>1</label>{" "}
@@ -19,7 +19,7 @@ export function Form() {
           <label className={styles.label}>1</label>{" "}
           <label className={styles.label}>1</label>{" "}
         </div>
-        <button className={styles.form__btn}>Submit</button>
+        <button className={styles.formBtn}>Submit</button>
       </form>
     </div>
   );
