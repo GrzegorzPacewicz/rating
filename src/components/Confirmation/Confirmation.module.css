@@ -20,8 +20,21 @@
     margin: 0.5rem auto 2.5rem;
 }
 
+@media only screen and (max-width: 375px) {
+    .selection {
+        font-size: 0.8rem;
+    }
+}
+
 .title {
     margin: 1rem 0;
+}
+
+@media only screen and (max-width: 375px) {
+    .title {
+        margin: 0;
+        font-size: 1.5rem;
+    }
 }
 
 .text {
@@ -29,4 +42,13 @@
     color: var(--neutral-medium-grey);
     line-height: 1.5rem;
     text-align: center;
+}
+
+@media only screen and (max-width: 375px) {
+    .text {
+        font-size: 0.8rem;
+        padding: 1.4rem;
+
+
+    }
 }
