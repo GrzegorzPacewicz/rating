@@ -2,6 +2,8 @@
 
 This is a solution to the [Interactive Rating Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
 
+You can find a demo version [here](https://grzegorzpacewicz.github.io/rating/).
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -23,7 +25,7 @@ This project is a solution to the Interactive Rating Component challenge provide
 
 ## Demo
 
-[Live Demo](./Animation.gif) - Insert link to live demo here.
+![Preview](./Animation.gif)
 
 ## Usage
 
